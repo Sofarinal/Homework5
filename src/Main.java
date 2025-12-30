@@ -58,43 +58,27 @@ public class Main {
 
         // Задание 5
 
-        int monthNumber = 7;
+        int monthNumber = 12;
         switch (monthNumber) {
+            case 12:
             case 1:
-                System.out.println("Январь");
-                break;
             case 2:
-                System.out.println("февраль");
+                System.out.println("Месяц " + monthNumber + " относится к сезону: зима");
                 break;
             case 3:
-                System.out.println("март");
-                break;
             case 4:
-                System.out.println("апрель");
-                break;
             case 5:
-                System.out.println("май");
+                System.out.println("Месяц " + monthNumber + " относится к сезону: весна");
                 break;
             case 6:
-                System.out.println("июнь");
-                break;
             case 7:
-                System.out.println("июль");
-                break;
             case 8:
-                System.out.println("август");
+                System.out.println("Месяц " + monthNumber + " относится к сезону: лето");
                 break;
             case 9:
-                System.out.println("сентябрь");
-                break;
             case 10:
-                System.out.println("октябрь");
-                break;
             case 11:
-                System.out.println("ноябрь");
-                break;
-            case 12:
-                System.out.println("декабрь");
+                System.out.println("Месяц " + monthNumber + " относится к сезону: осень");
                 break;
             default:
                 System.out.println("Пока сказать нечего");
